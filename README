@@ -5,3 +5,7 @@ This version of OpenLDev requires libatk1.0, libc6, libgconf2,
  gnome-terminal, automake, autoconf, libtool
 
 See ChangeLog for a comparison with OpenLDev 0.6.1
+
+todo:
+this ide has really useful function, but trapped in gnome-scheme..
+will try to extract the functions through ged-scheme. 
