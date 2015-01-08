@@ -1,0 +1,6 @@
+[OpenLDev Plugin VERSION='0.5']
+Name=Makefile Editor;
+Location=makefileeditor;
+Description=Edit all of the Makefile.am files in a project.;
+Author=Andrew Krause <andrew@openldev.org>;
+Copyright=Copyright (C) 2005 Andrew Krause;

@@ -1,0 +1,7 @@
+This version of OpenLDev requires libatk1.0, libc6, libgconf2, 
+ libglade2-0 , libglib2.0, libgnome2, libgnomeprint2.2, libgnomeprintui2.2, 
+ libgnomeui, GnomeVFS, Gtk+ (>= 2.10.0), GtkSourceView (>= 1.1.1), 
+ libpango1.0-0, libstdc++6, libvte4, libx11-6, libxml2, gcc, g++, make, 
+ gnome-terminal, automake, autoconf, libtool
+
+See ChangeLog for a comparison with OpenLDev 0.6.1

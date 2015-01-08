@@ -1,0 +1,104 @@
+Thank you for your interest in programming for OpenLDev. Before you
+  start contributing code, we request that you read through this
+  document. It gives some starting guidelines on the naming and
+  coding style we prefer submitted code to follow.
+
+CODING STYLE
+============
+
+Indentation: All new code in OpenLDev should not use tabs in any way.
+  To indent, set your text editor to insert two (2) spaces in place 
+  of a tab.
+
+Naming Conventions: Under no condition should the name of a function
+  or object in a structure be changed unless approved first by an
+  OpenLDev developer. We do not want to break the Plugin API.
+
+  New functions should have two prefixes. First, it should have
+  'openldev' for any function that is to be added to the main code
+  base. It should be followed by the object it is being created for.
+  For example, a function that adds a tab to the FileManager structure
+  should be formatted: openldev_file_manager_add_tab (...);
+
+  All new variables and functions should be named consistently and
+  descriptively. The only exception are the variables i, j and k, which
+  can be used as counters; x, y and z, which can be used for
+  coordinates; and l, which can be used to store an integer location.
+
+Function Formatting: When creating the header for a function, it should
+  appear twice. First, it should be placed at the top of the file with
+  only the data types included on only one line. Then, it should be
+  placed within the file with the function content. This time the header
+  should only have one parameter on every line. For example:
+
+  void 
+  function_name (const char *filename,
+                 OpenLDev *openldev)
+  {
+  }
+
+Braces: Braces are optional if there is only one line of code following
+  the if/else/for, but be consistent.
+
+  If braces are necessary, we prefer you use "hanging" style braces. The
+  only exception is when there is only one line in a function. In this
+  case, the line of code can be placed one space after the opening
+  bracket.
+
+MODIFYING CODE
+==============
+
+When modifying other people's code, please follow the same coding style
+that the original coder used. This includes not changing the names of
+variables unless there is a good reason to do so.
+
+SUBMITTING CODE
+===============
+
+Please do not commit directly to CVS unless you have been explicitly
+given permission to do so. When in doubt, you most likely do not have
+the proper clearances.
+
+Patches can be submitted to andrew@openldev.org.
+
+Make sure to submit patches based upon either the most recent CVS
+commit or the most recent stable release. We really appreciate your
+help, we just want to review fixes before applying them. When
+submitting, you must specify your name and e-mail address. If you
+do not want your e-mail address showing up in the ChangeLog, please
+state that as well.
+
+NEW PLUGINS
+===========
+
+If you have created a new plugin for OpenLDev that is not currently
+in the main source tree, you can submit it for inclusion. There are
+a few guidelines though. First, the plugin must be stable and well
+documented already. This includes heavy commenting.
+
+At this point, you can manage the plugin by submitting patches to
+the project. Please note that we may or may not include your plugin.
+If it is rejected, we will give you specific reasons why so you can
+improve upon it and resubmit the code. Plugins can be submitted
+to andrew@openldev.org.
+
+SOME IDEAS
+==========
+
+If you are looking for ideas of things to do, check out the TODO
+file. That is always a great place to begin. Also, the bug
+report database (http://bugs.openldev.org) is a good place to
+find what needs done.
+
+When you choose something to do, let one of the developers know
+so that we can make sure there is not duplication of work going on.
+
+CONCLUSIONS
+===========
+
+If you are still reading at this point, then you are most likely
+considering contributing code to OpenLDev. Every bit of help is much 
+needed. You have our deepest gratitudes for this.
+
+Thanks,
+Andrew Krause

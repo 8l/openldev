@@ -1,0 +1,25 @@
+<ui>
+  <toolbar name='ToolBar'>
+    <toolitem action='FileNewFileToolbar'/>
+    <toolitem action='FileOpenToolbar'/>
+    <toolitem action='FileSave'/>
+    <separator/>
+    <toolitem action='FilePrint'/>
+    <toolitem action='FilePrintPreview'/>
+    <separator/>
+    <toolitem action='EditCut'/>
+    <toolitem action='EditCopy'/>
+    <toolitem action='EditPaste'/>
+    <separator/>
+    <toolitem action='EditUndo'/>
+    <toolitem action='EditRedo'/>
+    <separator/>
+    <toolitem action='BuildCompileToolbar'/>
+    <toolitem action='BuildBuildToolbar'/>
+    <toolitem action='BuildExecute'/>
+    <toolitem action='BuildClean'/>
+    <toolitem action='BuildStop'/>
+    <separator/>
+    <toolitem action='ProjectConfigure'/>
+  </toolbar>
+</ui>

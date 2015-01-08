@@ -1,0 +1,74 @@
+Here is a list of TODO's. If you are interested in tackling any of them, let
+me know. I would be happy to clarify anything since some of the elements in the
+list are not very descriptive. Also, it's always good to check to make sure
+someone else is not already working on it.
+
+SHORT RUN TODO:
+
+- Makefile Editor popup menu:
+  Add a popup menu to the Makefile Editor that contains the following items;
+  Add new element, Remove element, Edit properties and Refresh. The first three
+  will be separated from the last by a separator. This should be loaded from a
+  ui file and loaded with a UI manager.
+
+LONG RUN TODO:
+
+- Makefile Editor Docs:
+  These really need done & possibly linked to by the Makefile Editor itself.
+
+- Project Template Docs:
+  This isn't really that urgent, but they would be nice since the system is
+  easily expandable.
+
+- Debugger plugin (in main tabs)
+  This is a very necessary feature. I think it will end up being the plugin that
+  will cause the jump to 0.7 since it will take a lot of work.
+
+- TODO manager plugin (_I_ need this)
+  Yes, this would be very nice. Maybe a calendar interface in the bottom
+  OutputManager pane?
+
+- Make all panels detachable
+  This will be useful in the future. It would be nice if everything can detach
+  itself and be self contained. That way people can move everything. If we do
+  this, both dimensions of the OutputManager and SideBar will need to be
+  tracked in case they are attached at a different side.
+
+- Extend GtkSourceView (add Scintilla features):
+  This has been requested multiple times since GtkSourceView is somewhat
+  limited. I still stand strong in the face that GtkSourceView is the best
+  choice for a Gtk+ IDE. It just needs a little work. Maybe some of this can be
+  pushed back into the main codebase? In any case, we will need to have this
+  derived as a custom widget for now.
+  + Function folding (For {}, () and <>)
+  + Bookmarks
+
+- Class/Symbol browser:
+  This is also requested a lot. Maybe we can use ctags? This will go in the
+  SideBar as a new tab. I think something needs done with the sidebar to make
+  it more manageable, but I don't want to add dual layers of GtkNotebooks.
+
+- Extend project info dialog:
+  The format needs to stay the same because the GtkTreeView is working. It is
+  very simple. It does need to do more though.
+
+- Glade-3 plugin:
+  This is so a wish list item. Glade-3 is not near ready, so it's not much of a
+  concern yet, but once it is ready, this plugin will help make OpenLDev a
+  killer app for C/C++ developers using Gtk+. Besides, all of the cool kids are
+  doing it. Or maybe that's just all of the bloated IDE's (hehe).
+
+- Tab manager support for non-FileTab objects:
+  This is already somewhat done. It just needs tested by a plugin. The
+  debugger plugin will make sure this is working, but it'd be nice to know that
+  it is ready before diving into that problem.
+
+- More useful status bar:
+  Let's face it. The current status bar sucks. It needs to be seriously
+  retooled to have multiple panes. Also, can we find a use for that progress
+  bar in it, because I am about to switch it back from a GnomeAppBar.
+
+- Profile memory usage in OpenLDev:
+  This could be a research project for someone I guess. It would be really nice
+  if someone could provide good leak reports. I worked a bit with Valgrind, but
+  haven't had the time to do extensive research into this.

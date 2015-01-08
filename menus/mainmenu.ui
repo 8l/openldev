@@ -1,0 +1,84 @@
+<ui>
+  <menubar name='MenuBar'>
+    <menu action='File'>
+      <menuitem action='FileNewFile'/>
+      <menuitem action='FileOpen'/>
+      <separator/>
+      <menuitem action='FileNewProject'/>
+      <menuitem action='FileOpenProject'/>
+      <menuitem action='FileImportProject'/>
+      <separator/>
+      <menuitem action='FileSave'/>
+      <menuitem action='FileSaveAs'/>
+      <menuitem action='FileSaveAll'/>
+      <menuitem action='FileRevert'/>
+      <separator/>
+      <menuitem action='FilePrintPreview'/>
+      <menuitem action='FilePrint'/>
+      <separator/>
+      <menuitem action='FileRecent1'/>
+      <menuitem action='FileRecent2'/>
+      <menuitem action='FileRecent3'/>
+      <menuitem action='FileRecent4'/>
+      <menuitem action='FileRecent5'/>
+      <separator/>
+      <menuitem action='FileClose'/>
+      <menuitem action='FileQuit'/>
+    </menu>
+    <menu action='Edit'>
+      <menuitem action='EditUndo'/>
+      <menuitem action='EditRedo'/>
+      <separator/>
+      <menuitem action='EditCut'/>
+      <menuitem action='EditCopy'/>
+      <menuitem action='EditPaste'/>
+      <separator/>
+      <menuitem action='EditSelectAll'/>
+      <menuitem action='EditDeselect'/>
+      <separator/>
+      <menuitem action='EditIndent'/>
+      <menuitem action='EditUnIndent'/>
+      <separator/>
+      <menuitem action='EditSettings'/>
+    </menu>
+    <menu action='View'>
+      <menuitem action='ViewFiles'/>
+      <menuitem action='ViewOutput'/>
+      <separator/>
+      <menuitem action='ViewToolbar'/>
+      <menuitem action='ViewStatusBar'/>
+      <menuitem action='ViewLineNumbering'/>
+      <separator/>
+      <menuitem action='ViewFullscreen'/>
+    </menu>
+    <menu action='Search'>
+      <menuitem action='EditFind'/>
+      <menuitem action='EditFindNext'/>
+      <menuitem action='EditReplace'/>
+      <separator/>
+      <menuitem action='EditGotoLine'/>
+    </menu>
+    <menu action='Project'>
+      <menuitem action='ProjectConfigure'/>
+      <separator/>
+      <menuitem action='ProjectInfo'/>
+    </menu>
+    <menu action='Build'>
+      <menuitem action='BuildCompile'/>
+      <menuitem action='BuildBuild'/>
+      <menuitem action='BuildExecute'/>
+      <separator/>
+      <menuitem action='BuildAutogen'/>
+      <menuitem action='BuildConfigure'/>
+      <separator/>
+      <menuitem action='BuildClean'/>
+      <menuitem action='BuildStop'/>
+    </menu>
+    <menu action='Help'>
+      <menuitem action='HelpDocs'/>
+      <menuitem action='HelpBugs'/>
+      <separator/>
+      <menuitem action='HelpAbout'/>
+    </menu>
+  </menubar>
+</ui>

@@ -1,0 +1,57 @@
+Bug Fix: Get rid of multiple crashes with functions called with keyboard 
+         accelerators when a project or a file is not opened
+Bug Fix: Do not terminate the application when the build output PID is zero
+Bug Fix: Do not show the '..' entry when the top-level directory is the current
+Bug Fix: Show the prefix for a target initially when working in the 
+         Makefile Editor
+Bug Fix: Check configure.ac for the build version if configure.in doesn't exist
+Bug Fix: Do not crash when the version number cannot be retrieved
+Bug Fix: Do not crash when a file is closed and a project is not open
+Bug Fix: Fork processes with GLib's spawning functions
+Bug Fix: Do not lose the memory that holds the project file location
+Bug Fix: Do not recreate the search tree columns every search
+Bug Fix: Import project will not do anything if the user cancels it
+Bug Fix: Import project will fail if Makefile.am or configure.in cannot be found
+Bug Fix: Stop the build operation immediately with kill() when the user presses 
+         the stop button
+Bug Fix: Do not crash when the New Project Dialog is launched multiple times
+Bug Fix: Do not crash when a new file is created and no project is open
+Bug Fix: Do not crash during multiple actions when no file is open 
+Bug Fix: Remove the empty introduction page in the new project GtkAssistant
+Bug Fix: Write to the actual project file when changes are made 
+Bug Fixed: Allow cut, copy and paste in GtkEditable widgets
+Bug Fixed: Edit project template files to create correctly
+Bug Fixed: Handle colors and font changes correctly in the Environment Dialog 
+
+Updated Dependency: GTK+ 2.10+
+Only show the First Boot Tip dialog when OpenLDev is installed or updated
+Add tooltips to dialogs so that fields are better understood by the user
+Allow the user to make the screen fullscreen or unfullscreen from the View menu
+Show markers for build errors and warnings in files that are currently open
+Use two GtkStatusBar widgets instead of the GnomeAppBar widget for messages
+Sort the folders and add a "Build All" option for building actions
+Build with GLib's process spawning functions to stop the UI from blocking
+Update the message output function to allow any type of message
+Implement the ability to customize the execute command
+Fix memory leaks that occurred when project string settings were changed
+Disable build menu items when a build process is currently running
+Make an EnvironmentSettings GObject that holds settings as object properties
+Add settings for the output font, terminal font, terminal colors, shell, 
+         scrollback lines, and scrolling options in the terminal
+Allow the user to make the main window fullscreen through the View menu
+Rewrote the project templates in Perl for better stability across platforms
+Add a tip of the day dialog. It shows tips, but its true purpose is to 
+         display information to the user when the application is booted 
+         into a new version.
+Default to the user's home directory for the file viewer when no project is open
+Display an error when a project cannot be loaded in openldev_open_project()
+Display more descriptive error messages when a file cannot be opened
+Make sure to hide or show the makefile editor depending on the current project 
+Make the goto line toolbar show up as a GtkSpinButton in a window
+Add the ability to build from any directory in the project
+Add a large number of signals that can be used in plugins 
+Depreciate the Gtkmm template since it is not often used
+Use private classes for properties for most GObjects
+Remove the DevHelp link until a full plugin can be created
+Migrated the New Project Dialog from GtkDialog to GtkAssistant 
+

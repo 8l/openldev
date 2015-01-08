@@ -1,0 +1,21 @@
+<ui>
+  <popup name='FileBrowserMenu'>
+    <menuitem action='OpenFileBrowser'/>
+    <menuitem action='RefreshFileBrowser'/>
+    <separator/>
+    <menuitem action='ProjectConfigure'/>
+    <menuitem action='ProjectInfo'/>
+  </popup>
+  <popup name='SearchOutputMenu'>
+    <menuitem action='SearchOutputGo'/>
+    <menuitem action='SearchOutputCopy'/>
+    <separator/>
+    <menuitem action='SearchOutputClear'/>
+  </popup>
+  <popup name='BuildOutputMenu'>
+    <menuitem action='BuildOutputGo'/>
+    <menuitem action='BuildOutputCopy'/>
+    <separator/>
+    <menuitem action='BuildOutputClear'/>
+  </popup>
+</ui>

@@ -1,0 +1,6 @@
+[OpenLDev Plugin VERSION='0.5']
+Name=Insert Info;
+Location=insertinfo;
+Description=Insert GPL, user and date info into a file.;
+Author=Andrew Krause <andrew@openldev.org>;
+Copyright=Copyright (C) 2006 Andrew Krause;
